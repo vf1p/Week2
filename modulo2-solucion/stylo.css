@@ -1,0 +1,81 @@
+h1 {
+	text-align: center;
+}
+.seccion1, .seccion2, .seccion3 {
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	background-color: gray;
+}
+.seccion h2{
+	text-align: right;
+}
+
+p{
+	display: inline-block;
+
+}
+h2 {
+	text-align: center;
+	padding-right: 5px;
+	color: white;
+}
+.c1{
+	background-color: pink;
+	height: 50px;
+	width: 100px;
+	display: inline-block;	
+	position: relative;	
+	text-align: center;
+	float: right;
+}
+.c2{
+	background-color: blue;
+	height: 50px;
+	width: 100px;
+	display: inline-block;	
+	position: relative;	
+	text-align: center;
+	float: right;
+	text
+}
+.c3{
+	background-color: green;
+	height: 50px;
+	width: 100px;
+	display: inline-block;	
+	position: relative;	
+	text-align: center;
+	float: right;
+}
+@media(min-width: 992px)
+{
+	.seccion1{
+		position: relative;
+		width: 30%;
+	}
+	.seccion2{
+		position: relative;
+		width: 30%;
+	}
+	.seccion3{
+		position: relative;
+		width: 30%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.seccion1{
+		float: left;
+		width: 50%;
+	}
+	.seccion2{
+		float: left;
+		width: 50%;
+	}
+	.seccion3{
+		float: left;
+		width: 100%;
+	}
+}
